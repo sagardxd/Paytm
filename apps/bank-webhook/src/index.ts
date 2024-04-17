@@ -5,7 +5,6 @@
     const app = express();
 
     app.post("/hdfcWebhook", async (req, res) => {
-        //TODO: Add zod validation here?
         const result = PaymentInformation.safeParse(req.body);
         if (!(result.success)) {
             return res.status(411).json({ msg: "Input errors", error: result.error });

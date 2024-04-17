@@ -5,7 +5,7 @@ interface AppbarProps {
         name?: string | null;
     },
     // TODO: can u figure out what the type should be here?
-    onSignin: any,
+    onSignin: any ,
     onSignout: any
 }
 
