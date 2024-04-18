@@ -14,7 +14,7 @@ export const Appbar = ({
     onSignin,
     onSignout
 }: AppbarProps) => {
-    return <div className="flex justify-between border-b px-4">
+    return <div className="flex justify-between fixed  top-0 left-0 right-0 z-20 border-b px-4">
         <div className="text-lg flex flex-col justify-center">
             PayTM
         </div>
